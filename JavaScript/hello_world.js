@@ -2,15 +2,25 @@
 // Script for printing and text calls in JavaScript
 // 
 // Imports
+import { fileURLToPath } from "url";
 
 
 // Variables
+const msg = "Hello World!";
 
 
 // Functions
-function hello_world() {
-    console.log('Hello World!');
+export function hello_world() { 
+    console.log(msg);
 }
 
+
+function main() {
+    hello_world();
+}
+
+
 // Main
-hello_world()
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+    main();
+}
