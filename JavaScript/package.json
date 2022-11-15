@@ -1,0 +1,12 @@
+{
+  "name": "LearnJS",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Learning JavaScript and NodeJS",
+  "main": "main.js",
+  "scripts": {
+    "hello_world": "Script for console declaration examples."
+  },
+  "author": "Daljeet Singh Gahle",
+  "license": "TBC"
+}
