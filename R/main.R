@@ -3,7 +3,7 @@
 #
 # Imports
 # Runs the script and imports all the variables and functions
-source('R/hello_world.R')
+source('R/hello_world.R') 
 
 
 # Main

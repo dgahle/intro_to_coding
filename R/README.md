@@ -17,4 +17,5 @@ to output run as `Rscript -e "print('Hello World')" > out.txt`.
 Note: Path to R and Rscript may be: `C:/'Program Files'/R/R-4.2.2/bin/`. 
 
 Useful links:
+- [Advanced R](https://adv-r.hadley.nz/index.html)
 - [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
